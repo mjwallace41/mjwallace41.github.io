@@ -4,34 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael Wallace - Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            color: #333;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/YOUR_FA_KIT.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -43,7 +18,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../../index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
                     <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
                 </ul>
@@ -53,20 +28,20 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-        <h1>Michael Wallace</h1>
+    <div class="container mt-5 p-4 bg-white shadow rounded">
+        <h1 class="text-primary">Michael Wallace</h1>
         <p>16207 Whitestone Dr., Parker, CO 80134</p>
-        <p>Phone: 720.737.5242 | Email: <a href="mailto:mjwallace41@gmail.com">mjwallace41@gmail.com</a></p>
+        <p><strong>Phone:</strong> 720.737.5242 | <strong>Email:</strong> <a href="mailto:mjwallace41@gmail.com">mjwallace41@gmail.com</a></p>
         
-        <div class="section">
-            <h2>Previous Experience</h2>
-            <h3>Co-founder, JustSixDudes (May 2024 - August 2024)</h3>
+        <div class="mb-4">
+            <h2 class="text-secondary">Previous Experience</h2>
+            <h4>Co-founder, JustSixDudes (May 2024 - August 2024)</h4>
             <ul>
                 <li>Founded a company providing landscaping, moving, and odd jobs.</li>
                 <li>Generated $10,000 in revenue over three months.</li>
             </ul>
             
-            <h3>Employee, The Links Golf Course - Cart Barn and Pro Shop</h3>
+            <h4>Employee, The Links Golf Course - Cart Barn and Pro Shop</h4>
             <p>April 2022 - August 2022, April 2023 - September 2023</p>
             <ul>
                 <li>Managed golf cart distribution and practice golf balls.</li>
@@ -75,24 +50,24 @@
             </ul>
         </div>
         
-        <div class="section">
-            <h2>Education</h2>
-            <h3>Chaparral High School, Parker, CO - Class of 2024</h3>
+        <div class="mb-4">
+            <h2 class="text-secondary">Education</h2>
+            <h4>Chaparral High School, Parker, CO - Class of 2024</h4>
             <ul>
                 <li>Graduated with a 4.3 weighted GPA and a 4.0 unweighted GPA.</li>
                 <li>Member of the National Honor Society.</li>
                 <li>Played Soccer and Basketball for four years.</li>
             </ul>
             
-            <h3>University of Colorado Boulder, Computer Science B.S.</h3>
+            <h4>University of Colorado Boulder, Computer Science B.S.</h4>
             <ul>
                 <li>Currently enrolled, on track to graduate in three years.</li>
                 <li>Minor in Mathematics.</li>
             </ul>
         </div>
         
-        <div class="section">
-            <h2>Skills</h2>
+        <div class="mb-4">
+            <h2 class="text-secondary">Skills</h2>
             <ul>
                 <li><strong>Programming Languages:</strong> C++, Java, HTML, JavaScript</li>
                 <li><strong>Software Development:</strong> Git, VS Code, Linux</li>
@@ -100,14 +75,15 @@
             </ul>
         </div>
         
-        <div class="section">
-            <h2>References</h2>
+        <div class="mb-4">
+            <h2 class="text-secondary">References</h2>
             <ul>
                 <li>Nathan Gruda - Employer | Phone: 505.670.2698</li>
                 <li>Kevin Fopma - Coach | Phone: 712.449.5997</li>
             </ul>
         </div>
-        <a href="/submission/views/Resume-2.pdf" download class="download-button">Download Resume</a>
+        
+        <a href="/submission/views/Resume-2.pdf" download class="btn btn-primary">Download Resume</a>
     </div>
 </body>
 </html>
